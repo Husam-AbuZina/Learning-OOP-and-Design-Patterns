@@ -20,3 +20,6 @@
 - Teams working from the same code base will benefit from existing well-written classes
 - Java in particular enforces OOP, which creates good habits (but may be challenging for beginners)
   
+### Notes: 
+- This Article is Quoted from RAYGUN, But i try to summarize it as much as posssible for fellow GitHub Friends.
+- You Can Find the Original Article On: [RAYGUN](https://raygun.com/blog/oop-concepts-java/#composition)
