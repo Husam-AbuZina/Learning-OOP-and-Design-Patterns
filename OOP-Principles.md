@@ -39,6 +39,21 @@ An abstract class is a superclass (parent class) that cannot be instantiated. To
 ### Interfaces
 An interface is a 100% abstract class. It can only have static, final, and public fields and abstract methods. It’s frequently referred to as a blueprint of a class as well. Java interfaces allow you to implement multiple inheritances in your code, as a class can implement any number of interfaces. Classes can access an interface with the implements keyword.
 
+## 2. Encapsulation
+- Encapsulation helps with data security, allowing you to protect the data stored in a class from system-wide access. As the name suggests, it safeguards the internal contents of a class like a capsule.
+- You can implement encapsulation in Java by making the fields (class variables) private and accessing them via their public getter and setter methods. JavaBeans are examples of fully encapsulated classes.
+
+### Encapsulation in Java:
+
+- Restricts direct access to data members (fields) of a class
+- Fields are set to private
+- Each field has a getter and setter method
+- Getter methods return the field
+- Setter methods let us change the value of the field
+
+
+
+  
 ### Notes: 
 - This Article is Quoted from RAYGUN, But i try to summarize it as much as posssible for fellow GitHub Friends.
 - You Can Find the Original Article On: [RAYGUN](https://raygun.com/blog/oop-concepts-java/#composition)
