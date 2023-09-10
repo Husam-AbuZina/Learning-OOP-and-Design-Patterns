@@ -25,3 +25,9 @@ a fancy title to describe popular ways or styles to organize your programming.
 # What a Programming Paradigm is Not?
 - PP is a set of ideals and guidelines that many people have agreen on, followed and expanded upon.
 - You can only use one PP at a time when using a certain Programming Language.
+
+# What are the Benefits of Programming Paradigms?
+### Each PP has it's own benefits and advanteges, OOP for example:
+- Encapsulation: Data and behavior are encapsulated within objects, enhancing data security and reducing complexity.
+- Reusability: Classes and inheritance promote code reuse, saving development time.
+- Maintenance: Easier to maintain and extend, as changes can be localized within cl
