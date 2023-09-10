@@ -39,3 +39,6 @@ a fancy title to describe popular ways or styles to organize your programming.
 - Note that we will demonstrate most popular PPs but not all of them, Starting with the Imperative Programming
 
 ## 1. Imperative Programming
+- Imperative programming focuses on describing how a program operates, step by step.
+
+  
