@@ -19,7 +19,26 @@
 - Make large and complex code bases more efficient and manageable
 - Teams working from the same code base will benefit from existing well-written classes
 - Java in particular enforces OOP, which creates good habits (but may be challenging for beginners)
+
+# Definitions of OOP concepts
+
+## 1. Abstraction
+- Abstraction aims to hide complexity from users and show them only relevant information. For example, if you’re driving a car, you don’t need to know about its internal workings.
+
+### Abstraction in Java
+- Hides the underlying complexity of data
+- Helps avoid repetitive code
+- Presents only the signature of internal functionality
+- Gives flexibility to programmers to change the implementation of abstract behavior
+- Partial abstraction (0-100%) can be achieved with abstract classes
+- Total abstraction (100%) can be achieved with interfaces
   
+### Abstract classes
+An abstract class is a superclass (parent class) that cannot be instantiated. To create a new object, you need to instantiate one of its child classes. Abstract classes can have both abstract and concrete methods. Abstract methods contain only the method signature, while concrete methods declare the method body as well. Abstract classes are defined with the abstract keyword.
+
+### Interfaces
+An interface is a 100% abstract class. It can only have static, final, and public fields and abstract methods. It’s frequently referred to as a blueprint of a class as well. Java interfaces allow you to implement multiple inheritances in your code, as a class can implement any number of interfaces. Classes can access an interface with the implements keyword.
+
 ### Notes: 
 - This Article is Quoted from RAYGUN, But i try to summarize it as much as posssible for fellow GitHub Friends.
 - You Can Find the Original Article On: [RAYGUN](https://raygun.com/blog/oop-concepts-java/#composition)
