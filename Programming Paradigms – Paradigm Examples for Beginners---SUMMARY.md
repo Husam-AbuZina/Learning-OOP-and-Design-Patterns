@@ -45,5 +45,8 @@ a fancy title to describe popular ways or styles to organize your programming.
 - Procedural programming is a derivation of imperative programming, adding to it the feature of functions
 - Imperative Programming BUT with funcitons, the code is the same.
 
+## 3. Functional Programming
+- Functional programming takes the concept of functions a little bit further.
+- In functional programming, functions are treated as first-class citizens, meaning that they can be assigned to variables, passed as arguments, and returned from other functions.
 
   
