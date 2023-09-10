@@ -49,4 +49,8 @@ a fancy title to describe popular ways or styles to organize your programming.
 - Functional programming takes the concept of functions a little bit further.
 - In functional programming, functions are treated as first-class citizens, meaning that they can be assigned to variables, passed as arguments, and returned from other functions.
 
+## 4. Imperative Programming
+- Declarative programming is all about hiding away complexity and bringing programming languages closer to human language and thinking.
+- Applying the Encapsulation of the OOP programming paradigm. Show the feature clearly without showing the funcitonlit, Show What but Not how.
+- You drive a car, but you does not how the car Works as a whole.
   
