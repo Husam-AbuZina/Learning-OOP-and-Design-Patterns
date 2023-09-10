@@ -58,4 +58,7 @@ a fancy title to describe popular ways or styles to organize your programming.
 - The core concept of OOP is to separate concerns into entities which are coded as objects.
 - Each entity will group a given set of information (properties) and actions (methods) that can be performed by the entity.
 
+
+# Round Up
+- Imperative, procedural, functional, declarative, and object oriented paradigms are some of the most popular and widely used paradigms today. - And knowing the basics about them is good for general knowledge and also for better understanding other topics of the coding world.
   
