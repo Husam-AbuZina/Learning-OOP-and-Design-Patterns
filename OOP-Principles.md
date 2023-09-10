@@ -167,6 +167,18 @@ class Calculator {
 - One-directional association
 - Represents a HAS-A relationship between two classes
 - Only one class is dependent on the other
+
+ ### 7. Composition
+- Composition is a stricter form of aggregation. It occurs when the two classes you associate are mutually dependent and can’t exist without each other.
+- For example, take a Car and an Engine class. A Car cannot run without an Engine, while an Engine also can’t function without being built into a Car. This kind of relationship between objects is also called a PART-OF relationship.
+  
+### Composition in Java:
+
+- A restricted form of aggregation
+- Represents a PART-OF relationship between two classes
+- Both classes are dependent on each other
+- If one class ceases to exist, the other can’t survive alone
+  
   
 ### Notes: 
 - This Article is Quoted from RAYGUN, But i try to summarize it as much as posssible for fellow GitHub Friends.
