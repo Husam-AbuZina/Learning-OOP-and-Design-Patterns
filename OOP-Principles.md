@@ -158,6 +158,15 @@ class Calculator {
 - The two classes are unrelated, each can exist without the other one
 - Can be a one-to-one, one-to-many, many-to-one, or many-to-many relationship
 
+### 6. Aggregation
+- Aggregation is a narrower kind of association. It occurs when there’s a one-way (HAS-A) relationship between the two classes we associate through their objects.
+- For example, every Passenger has a Car, but a Car doesn’t necessarily have a Passenger. When you declare the Passenger class, you can create a field of the Car type that shows which car the passenger belongs to. Then, when you instantiate a new Passenger object, you can access the data stored in the related Car as well.
+
+### Aggregation in Java:
+
+- One-directional association
+- Represents a HAS-A relationship between two classes
+- Only one class is dependent on the other
   
 ### Notes: 
 - This Article is Quoted from RAYGUN, But i try to summarize it as much as posssible for fellow GitHub Friends.
