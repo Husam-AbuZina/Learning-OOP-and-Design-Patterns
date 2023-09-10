@@ -179,6 +179,11 @@ class Calculator {
 - Both classes are dependent on each other
 - If one class ceases to exist, the other can’t survive alone
   
+# Summary Image
+
+![image](https://github.com/Husam-AbuZina/Learning-OOP-and-Design-Patterns/assets/109718076/178b3805-7085-42fe-87f8-017b4d135c87)
+
+
   
 ### Notes: 
 - This Article is Quoted from RAYGUN, But i try to summarize it as much as posssible for fellow GitHub Friends.
