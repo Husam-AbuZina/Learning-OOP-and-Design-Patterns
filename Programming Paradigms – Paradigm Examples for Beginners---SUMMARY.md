@@ -3,8 +3,6 @@ a fancy title to describe popular ways or styles to organize your programming.
 
 ## Notes:
 - For the sake of simplicity, i will user PP as a short of Programming Paradigm.
-- This Article is Quoted from FreeCodeCamp, But i try to summarize it as much as posssible for fellow GitHub Friends.
-- [FreeCodeCamp_Original_Article](https://www.freecodecamp.org/news/an-introduction-to-programming-paradigms)
   
 # Table of Contents
 - What is a programming paradigm
@@ -61,4 +59,7 @@ a fancy title to describe popular ways or styles to organize your programming.
 
 # Round Up
 - Imperative, procedural, functional, declarative, and object oriented paradigms are some of the most popular and widely used paradigms today. - And knowing the basics about them is good for general knowledge and also for better understanding other topics of the coding world.
-  
+
+### Notes: 
+- This Article is Quoted from FreeCodeCamp, But i try to summarize it as much as posssible for fellow GitHub Friends.
+- You Can Find the Original Article On: [FreeCodeCamp](https://www.freecodecamp.org/news/an-introduction-to-programming-paradigms)
