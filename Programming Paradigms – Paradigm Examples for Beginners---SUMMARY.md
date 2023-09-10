@@ -53,4 +53,9 @@ a fancy title to describe popular ways or styles to organize your programming.
 - Declarative programming is all about hiding away complexity and bringing programming languages closer to human language and thinking.
 - Applying the Encapsulation of the OOP programming paradigm. Show the feature clearly without showing the funcitonlit, Show What but Not how.
 - You drive a car, but you does not how the car Works as a whole.
+
+## 5. Object-Oriented Programming (OOP)
+- The core concept of OOP is to separate concerns into entities which are coded as objects.
+- Each entity will group a given set of information (properties) and actions (methods) that can be performed by the entity.
+
   
