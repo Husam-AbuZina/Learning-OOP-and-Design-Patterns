@@ -41,4 +41,9 @@ a fancy title to describe popular ways or styles to organize your programming.
 ## 1. Imperative Programming
 - Imperative programming focuses on describing how a program operates, step by step.
 
+## 2. Procedural Programming
+- Procedural programming is a derivation of imperative programming, adding to it the feature of functions
+- Imperative Programming BUT with funcitons, the code is the same.
+
+
   
