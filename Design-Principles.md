@@ -29,3 +29,8 @@ This means that, given that class B is a subclass of class A, we should be able 
 This is the expected behavior, because when we use inheritance we assume that the child class inherits everything that the superclass has. The child class extends the behavior but never narrows it down.
 
 Therefore, when a class does not obey this principle, it leads to some nasty bugs that are hard to detect.
+
+## 4. Interface Segregation Principle
+Segregation means keeping things separated, and the Interface Segregation Principle is about separating the interfaces.
+
+The principle states that many client-specific interfaces are better than one general-purpose interface. Clients should not be forced to implement a function they do no need.
