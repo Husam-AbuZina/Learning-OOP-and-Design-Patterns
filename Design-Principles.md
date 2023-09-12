@@ -34,3 +34,10 @@ Therefore, when a class does not obey this principle, it leads to some nasty bug
 Segregation means keeping things separated, and the Interface Segregation Principle is about separating the interfaces.
 
 The principle states that many client-specific interfaces are better than one general-purpose interface. Clients should not be forced to implement a function they do no need.
+
+## 5. Dependency Inversion Principle
+The Dependency Inversion principle states that our classes should depend upon interfaces or abstract classes instead of concrete classes and functions.
+
+These two principles are indeed related and we have applied this pattern before while we were discussing the Open-Closed Principle.
+
+We want our classes to be open to extension, so we have reorganized our dependencies to depend on interfaces instead of concrete classes. Our PersistenceManager class depends on InvoicePersistence instead of the classes that implement that interface.
