@@ -38,6 +38,6 @@ Design patterns differ by their complexity, level of detail and scale of applica
 
 3. Behavioral patterns take care of effective communication and the assignment of responsibilities between objects.
 
-### Notes: 🗒️
+### Notes: 📝
 - This Article is Quoted from refactoring.guru, But i try to summarize it as much as posssible for fellow GitHub Friends.
 - You Can Find the Original Article On: [refactoring.guru](https://refactoring.guru/design-patterns/what-is-pattern)
