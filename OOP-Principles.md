@@ -1,7 +1,7 @@
 # Using OOP concepts to write high-performance Java code (2023)
 
-## List of OOP concepts in Java:
-- Abstraction
+## List of OOP concepts in Java: 📚
+- Abstraction 
 - Encapsulation
 - Inheritance
 - Polymorphism
@@ -9,23 +9,23 @@
 - Aggregation
 - Composition
 
-# What are OOP concepts in Java?
+# What are OOP concepts in Java? ❓
  - Object-oriented programming focuses on objects made up of both data (fields) and code (properties or attributes). 
  - Java supports object-oriented programming
     
-# Advantages of OOP
+# Advantages of OOP 🚀🚀
 - Classes provide easy “building blocks” for faster coding and make code highly maintainable
 - Create more stable and consistent code
 - Make large and complex code bases more efficient and manageable
 - Teams working from the same code base will benefit from existing well-written classes
 - Java in particular enforces OOP, which creates good habits (but may be challenging for beginners)
 
-# Definitions of OOP concepts
+# Definitions of OOP concepts 📃
 
-## 1. Abstraction
+## 1. Abstraction 🚩✅
 - Abstraction aims to hide complexity from users and show them only relevant information. For example, if you’re driving a car, you don’t need to know about its internal workings.
 
-### Abstraction in Java
+### Abstraction in Java 📄
 - Hides the underlying complexity of data
 - Helps avoid repetitive code
 - Presents only the signature of internal functionality
@@ -33,17 +33,17 @@
 - Partial abstraction (0-100%) can be achieved with abstract classes
 - Total abstraction (100%) can be achieved with interfaces
   
-### Abstract classes
+### Abstract classes 📄
 An abstract class is a superclass (parent class) that cannot be instantiated. To create a new object, you need to instantiate one of its child classes. Abstract classes can have both abstract and concrete methods. Abstract methods contain only the method signature, while concrete methods declare the method body as well. Abstract classes are defined with the abstract keyword.
 
 ### Interfaces
 An interface is a 100% abstract class. It can only have static, final, and public fields and abstract methods. It’s frequently referred to as a blueprint of a class as well. Java interfaces allow you to implement multiple inheritances in your code, as a class can implement any number of interfaces. Classes can access an interface with the implements keyword.
 
-## 2. Encapsulation
+## 2. Encapsulation 🚩✅
 - Encapsulation helps with data security, allowing you to protect the data stored in a class from system-wide access. As the name suggests, it safeguards the internal contents of a class like a capsule.
 - You can implement encapsulation in Java by making the fields (class variables) private and accessing them via their public getter and setter methods. JavaBeans are examples of fully encapsulated classes.
 
-### Encapsulation in Java:
+### Encapsulation in Java: 📄
 
 - Restricts direct access to data members (fields) of a class
 - Fields are set to private
@@ -52,13 +52,13 @@ An interface is a 100% abstract class. It can only have static, final, and publi
 - Setter methods let us change the value of the field
 
 
-## 3. Inheritance
+## 3. Inheritance 🚩✅
 - Inheritance makes it possible to create a child class that inherits the fields and methods of the parent class. The child class can override the values and methods of the parent class, but it’s not necessary. It can also add new data and functionality to its parent.
 - Parent classes are also called superclasses or base classes, while child classes are known as subclasses or derived classes as well. Java uses the extends keyword to implement the principle of inheritance in code.
 
 
 
-### Inheritance in Java:
+### Inheritance in Java: 📄
 
 - A class (child class) can extend another class (parent class) by inheriting its features
 - Implements the DRY (Don’t Repeat Yourself) programming principle
@@ -66,11 +66,11 @@ An interface is a 100% abstract class. It can only have static, final, and publi
 - Multi-level inheritance is allowed in Java (a child class can have its own child class as well)
 - Multiple inheritances are not allowed in Java (a class can’t extend more than one class)
 
-### 4. Polymorphism
+### 4. Polymorphism 🚩✅
 - Polymorphism refers to the ability to perform a certain action in different ways. In Java, polymorphism can take two forms: method overloading and method overriding.
 - Method overloading happens when various methods with the same name are present in a class. When they are called, they are differentiated by the number, order, or types of their parameters. Method overriding occurs when a child class overrides a method of its parent.
 
-### Polymorphism in Java:
+### Polymorphism in Java: 📄
 
 - The same method name is used several times
 - Different methods of the same name can be called from an object
@@ -83,6 +83,8 @@ Function overloading and function overriding are both concepts used in object-or
 
 Function Overloading:
 Function overloading occurs within a single class, and it involves defining multiple methods with the same name in that class. These methods must have different parameter lists (different types or different numbers of parameters). The appropriate method is chosen at compile time based on the arguments provided when calling the function.
+
+# 👩‍💻
 
 ```java
 ass Calculator {
@@ -113,6 +115,7 @@ In this example, the Calculator class has two add methods with different paramet
 Function Overriding:
 Function overriding, on the other hand, is a concept related to inheritance. It occurs when a subclass provides a specific implementation for a method that is already defined in its superclass. The method in the subclass must have the same name, return type, and parameters (or a subtype) as the method in the superclass. This allows a subclass to provide its own behavior while still adhering to the method signature of the superclass.
 
+# 👩‍💻
 
 ```java
 
@@ -149,30 +152,30 @@ class Calculator {
     }
 }
 ```
-### 5. Association
+### 5. Association 🚩✅
 - Association means the act of establishing a relationship between two unrelated classes. For example, when you declare two fields of different types (e.g. Car and Bicycle) within the same class and make them interact with each other, you have created an association.
 
-### Association in Java:
+### Association in Java: 📄
 
 - Two separate classes are associated through their objects
 - The two classes are unrelated, each can exist without the other one
 - Can be a one-to-one, one-to-many, many-to-one, or many-to-many relationship
 
-### 6. Aggregation
+### 6. Aggregation 🚩✅
 - Aggregation is a narrower kind of association. It occurs when there’s a one-way (HAS-A) relationship between the two classes we associate through their objects.
 - For example, every Passenger has a Car, but a Car doesn’t necessarily have a Passenger. When you declare the Passenger class, you can create a field of the Car type that shows which car the passenger belongs to. Then, when you instantiate a new Passenger object, you can access the data stored in the related Car as well.
 
-### Aggregation in Java:
+### Aggregation in Java: 📄
 
 - One-directional association
 - Represents a HAS-A relationship between two classes
 - Only one class is dependent on the other
 
- ### 7. Composition
+ ### 7. Composition 🚩✅
 - Composition is a stricter form of aggregation. It occurs when the two classes you associate are mutually dependent and can’t exist without each other.
 - For example, take a Car and an Engine class. A Car cannot run without an Engine, while an Engine also can’t function without being built into a Car. This kind of relationship between objects is also called a PART-OF relationship.
   
-### Composition in Java:
+### Composition in Java: 📄
 
 - A restricted form of aggregation
 - Represents a PART-OF relationship between two classes
@@ -185,6 +188,6 @@ class Calculator {
 
 
   
-### Notes: 
+### Notes: 🗒️
 - This Article is Quoted from RAYGUN, But i try to summarize it as much as posssible for fellow GitHub Friends.
 - You Can Find the Original Article On: [RAYGUN](https://raygun.com/blog/oop-concepts-java/#composition)
