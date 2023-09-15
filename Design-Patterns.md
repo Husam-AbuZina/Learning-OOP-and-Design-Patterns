@@ -13,3 +13,6 @@ you can see what the result and its features are, but the exact order of impleme
 - Motivation further explains the problem and the solution the pattern makes possible.
 - Structure of classes shows each part of the pattern and how they are related.
 - Code example in one of the popular programming languages makes it easier to grasp the idea behind the pattern.
+
+## History of patterns
+Who invented patterns? That’s a good, but not a very accurate, question. Design patterns aren’t obscure, sophisticated concepts—quite the opposite. Patterns are typical solutions to common problems in object-oriented design. When a solution gets repeated over and over in various projects, someone eventually puts a name to it and describes the solution in detail. That’s basically how a pattern gets discovered.
