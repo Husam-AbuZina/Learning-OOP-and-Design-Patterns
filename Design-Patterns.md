@@ -29,6 +29,15 @@ Who invented patterns? That’s a good, but not a very accurate, question. Desig
 3. Unjustified use
 Having learned about patterns, they try to apply them everywhere, even in situations where simpler code would do just fine.
 
+## Classification of patterns
+Design patterns differ by their complexity, level of detail and scale of applicability to the entire system being designed. 
+### Some Patterns Types:
+1. Creational patterns provide object creation mechanisms that increase flexibility and reuse of existing code.
+
+2. Structural patterns explain how to assemble objects and classes into larger structures, while keeping these structures flexible and efficient.
+
+3. Behavioral patterns take care of effective communication and the assignment of responsibilities between objects.
+
 ### Notes: 
 - This Article is Quoted from refactoring.guru, But i try to summarize it as much as posssible for fellow GitHub Friends.
 - You Can Find the Original Article On: [refactoring.guru](https://refactoring.guru/design-patterns/what-is-pattern)
