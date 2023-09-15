@@ -21,4 +21,6 @@ Who invented patterns? That’s a good, but not a very accurate, question. Desig
 - Design patterns are a toolkit of tried and tested solutions to common problems in software design. Even if you never encounter these problems, knowing patterns is still useful because it teaches you how to solve all sorts of problems using principles of object-oriented design.
 - Design patterns define a common language that you and your teammates can use to communicate more efficiently. You can say, “Oh, just use a Singleton for that,” and everyone will understand the idea behind your suggestion. No need to explain what a singleton is if you know the pattern and its name
 
-
+### Notes: 
+- This Article is Quoted from refactoring.guru, But i try to summarize it as much as posssible for fellow GitHub Friends.
+- You Can Find the Original Article On: [refactoring.guru](https://refactoring.guru/design-patterns/what-is-pattern)
