@@ -188,6 +188,6 @@ class Calculator {
 
 
   
-### Notes: 🗒️
+### Notes: 📝
 - This Article is Quoted from RAYGUN, But i try to summarize it as much as posssible for fellow GitHub Friends.
 - You Can Find the Original Article On: [RAYGUN](https://raygun.com/blog/oop-concepts-java/#composition)
