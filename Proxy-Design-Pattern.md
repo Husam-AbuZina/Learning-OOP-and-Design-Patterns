@@ -12,7 +12,13 @@ Proxy is a structural design pattern that lets you provide a substitute or place
 - Privacy
 - Security
 
+# The Problem
 ## Why would you want to control access to an object?
 Here is an example: you have a massive object that consumes a vast amount of system resources. You need it from time to time, but not always.
 
 You could implement lazy initialization: create this object only when it’s actually needed. All of the object’s clients would need to execute some deferred initialization code. Unfortunately, this would probably cause a lot of code duplication.
+
+![image](https://github.com/Husam-AbuZina/Learning-OOP-and-Design-Patterns/assets/109718076/9328a7db-37a4-4e11-ade2-4ce295eb9373)
+
+# The Solution
+The Proxy pattern suggests that you create a new proxy class with the same interface as an original service object. Then you update your app so that it passes the proxy object to all of the original object’s clients. Upon receiving a request from a client, the proxy creates a real service object and delegates all the work to it.
