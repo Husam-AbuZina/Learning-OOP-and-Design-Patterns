@@ -1,8 +1,7 @@
 # Proxy Pattern
 
 ## What is a Proxy
-Acts as a surrogate for the RealSubject,
-providing a wrapper around it to control access or add additional behavior before or after accessing the RealSubject.
+Proxy is a structural design pattern that lets you provide a substitute or placeholder for another object. A proxy controls access to the original object, allowing you to perform something either before or after the request gets through to the original object.
 
 ### It works as an intermediate between the user and the internet, Prociding the following:
 
