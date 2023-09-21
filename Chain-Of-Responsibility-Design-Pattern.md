@@ -33,3 +33,7 @@ The system became very hard to comprehend and expensive to maintain. You struggl
 - Here’s the best part: a handler can decide not to pass the request further down the chain and effectively stop any further processing.
 
 - In our example with ordering systems, a handler performs the processing and then decides whether to pass the request further down the chain. Assuming the request contains the right data, all the handlers can execute their primary behavior, whether it’s authentication checks or caching.
+
+![image](https://github.com/Husam-AbuZina/Learning-OOP-and-Design-Patterns/assets/109718076/492cff6e-f9d3-46eb-82b0-6598e68e2397)
+
+However, there’s a slightly different approach (and it’s a bit more canonical) in which, upon receiving a request, a handler decides whether it can process it. If it can, it doesn’t pass the request any further. So it’s either only one handler that processes the request or none at all. This approach is very common when dealing with events in stacks of elements within a graphical user interface.
