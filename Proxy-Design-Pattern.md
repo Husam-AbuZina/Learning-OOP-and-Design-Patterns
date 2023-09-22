@@ -61,3 +61,7 @@ Instead of creating the object when the app launches, you can delay the object‚Ä
  The proxy can keep track of clients that obtained a reference to the service object or its results. From time to time, the proxy may go over the clients and check whether they are still active. If the client list gets empty, the proxy might dismiss the service object and free the underlying system resources.
 
 The proxy can also track whether the client had modified the service object. Then the unchanged objects may be reused by other clients.
+
+### Notes: üìù
+- This Article is Quoted from refactoring.guru, But i try to summarize it as much as posssible for fellow GitHub Friends.
+- You Can Find the Original Article On: [refactoring.guru.proxy](https://refactoring.guru/design-patterns/proxy)
