@@ -32,7 +32,7 @@ The system became very hard to comprehend and expensive to maintain. You struggl
 
 - Here’s the best part: a handler can decide not to pass the request further down the chain and effectively stop any further processing.
 
-- In our example with ordering systems, a handler performs the processing and then decides whether to pass the request further down the chain. Assuming the request contains the right data, all the handlers can execute their primary behavior, whether it’s authentication checks or caching.
+- In our example with ordering systems, a handler performs the processing and then decides whether to pass the request further down the chain. Assuming the request contains the right data, all the handlers can execute their primary behavior well, whether it’s authentication checks or caching.
 
 ![image](https://github.com/Husam-AbuZina/Learning-OOP-and-Design-Patterns/assets/109718076/492cff6e-f9d3-46eb-82b0-6598e68e2397)
 
