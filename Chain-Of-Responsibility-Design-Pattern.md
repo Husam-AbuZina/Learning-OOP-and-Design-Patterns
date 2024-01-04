@@ -12,7 +12,7 @@ After a bit of planning, you realized that these checks must be performed sequen
 
 During the next few months, you implemented several more of those sequential checks.
 
-- One of your colleagues suggested that it’s unsafe to pass raw data straight to the ordering system. So you added an extra validation step to sanitize the data in a request.
+- One of your colleagues suggested that it’s unsafe to pass raw data straight to the ordering system. So you added an extra validation step to sanitize the data in a certain request.
 
 - Later, somebody noticed that the system is vulnerable to brute force password cracking. To negate this, you promptly added a check that filters repeated failed requests coming from the same IP address.
 
