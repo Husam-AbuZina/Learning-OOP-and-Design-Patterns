@@ -40,4 +40,4 @@ Design patterns differ by their complexity, level of detail and scale of applica
 
 ### Notes: 📝
 - This Article is Quoted from refactoring.guru, But i try to summarize it as much as posssible for fellow GitHub Friends.
-- You Can Find the Original Article On: [refactoring.guru](https://refactoring.guru/design-patterns/what-is-pattern)
+- You Can Find the Original Article On : [refactoring.guru](https://refactoring.guru/design-patterns/what-is-pattern)
